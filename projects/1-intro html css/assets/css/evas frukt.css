@@ -1,0 +1,50 @@
+body{
+    background: #ebebeb;
+    width: 800px;
+    height: 1000px;
+    /* lägga hemsidan i mitten */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* ram på body */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7c7c7c;
+    /* avstånd till hemsidan */
+    padding: 20px;
+    
+}
+
+/* typografi */
+
+h1{
+    color: green; /*ändra textens färg*/
+    font-weight: 100; /*göra texten smalare*/
+    font-family: arial; /*ändra typsnitt*/
+    font-size: 34px; /*textens storlek*/
+   
+}
+
+h3{
+    color: green;
+    font-family: arial;
+    
+}
+
+p {
+    font-family: arial; /*byta typsnitt*/
+    font-size: 14px; /*ändra storleken på texten*/
+    line-height: 150%; /*ändra radavståndet*/
+    
+}
+
+/*länkar*/
+a{
+    color: red;
+}
+
+img.floatbild{
+    float: right;
+    width: 170px;
+    
+}

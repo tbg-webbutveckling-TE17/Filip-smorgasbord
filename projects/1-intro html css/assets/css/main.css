@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* skriv här kommentar*/
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-shadow:4px 4px 2px #0d375c; /* x y blur color */
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-weight: 1000;
+    text-decoration: inherit;
+
+}
+p {
+    background color: aqua;
+    color:white;
+    font-style: italic;
+}
+
+ul {
+  border: 1px solid #000000; /* width apperance color */
+  padding-left: 0px;
+  list-style-type: none;
+}
+ul li {
+    color: green;
+    font-weight: 900;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    background-color: blue;
+    display: block;
+/*    display: inline;*/
+}
+
+section {
+    background-color: #9b59b6;
+    min-height: 400px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+header img{
+    width: 50%;
+    height: 100px;
+    border-radius: 100px;
+}
+main {
+    background-color:chartreuse;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    flex: 1px;
+}
+
+.box1 {
+    background-color: purple;
+}
+
+.box2 {
+    background-color: chartreuse;
+}
+
+.box3 {
+    background-color: darkgoldenrod;
+}
+
+.box5 {
+    background-color: deeppink;
+}
+
+.box6 {
+    background-color:darkgreen;
+}
+
+.box7 {
+    background-color:cyan;
+}
+
+.box8 {
+    background-color:burlywood;
+}
+
+.box9 {
+    background-color:aliceblue;
+}
+
+.box10 {
+    background-color:cornflowerblue;
+}
