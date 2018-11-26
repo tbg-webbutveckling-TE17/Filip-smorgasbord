@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    grid-template-areas: 
+        ". firstbox ."
+        "fourthbox . secondbox"
+        ". thirdbox .";
+}
+.boxes {
+    border-color: black;
+    border-style: solid;
+}
+
+.box1 {
+    grid-area: firstbox;
+    border-width: 0px 1px 1px 1px;
+    
+}
+.box2 {
+    grid-area: secondbox;
+    border-width: 1px 0px 1px 1px;
+}
+.box3 {
+    grid-area: thirdbox;
+    border-width: 1px 1px 0px 1px;
+}
+.box4 {
+    grid-area: fourthbox;
+    border-width: 1px 1px 1px 0px;
+}
