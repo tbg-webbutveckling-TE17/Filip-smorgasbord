@@ -1,0 +1,69 @@
+body{
+    background-color: darkslategray;
+}
+main {
+    width: 1325px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #454040;
+    border-width: 0px 3px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 75px;
+}
+h1 {
+    padding-top: 75px;
+    margin-left: 680px;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+h2 {
+    padding-top: 0px;
+    margin-left: 650px;
+    color: darkgray;
+    font-size: 15px;
+}
+form.forst {
+    width: 30%;
+    margin-left: 600px;
+    border: 
+
+}
+input {
+    background: transparent;
+}
+input.tre {
+   
+}
+input.ett {
+
+    
+}
+input.tva {
+    
+}
+button.fyra {
+        
+}
+textarea.tre {
+    display: block;
+    resize: none;
+    width: 345px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+p.tann {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+p.tannvag {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

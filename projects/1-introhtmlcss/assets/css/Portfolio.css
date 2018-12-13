@@ -1,0 +1,68 @@
+main {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 900px;
+    width: 900px;
+    grid-template-areas: 
+        "fifthbox firstbox sixthbox"
+        "fourthbox . secondbox"
+        "seventhbox thirdbox eightbox";
+}
+
+h1 {
+
+}
+.boxes {
+    border-color: black;
+    border-style: solid;
+}
+
+.box1 {
+    grid-area: firstbox;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.box2 {
+    grid-area: secondbox;
+    border-width: 2px 2px 2px 2px;
+}
+.box3 {
+    grid-area: thirdbox;
+    border-width: 2px 2px 2px 2px;
+}
+.box4 {
+    grid-area: fourthbox;
+    border-width: 2px 2px 2px 2px;
+}
+.box5{
+    grid-area: fifthbox;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.box6{
+    grid-area: sixthbox;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.box7{
+    grid-area: seventhbox;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.box8{
+    grid-area: eightbox;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.box9{
+    grid-area: .;
+    border-width: 2px 2px 2px 2px;
+    
+}
+.image1{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.image1:hover {opacity: 1}

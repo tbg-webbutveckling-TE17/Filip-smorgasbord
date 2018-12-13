@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+nav.meny {
+    width: 60%;
+    margin-top: 45px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+nav a:hover + .dropdown-content {
+    background: purple;
+    display: block;
+}
+.dropdown-content:hover {
+    display: block;
+}
+.dropdown a {
+    font-size: 20px;
+}
+.dropdown {
+    margin: 0 30px;
+    padding: 10px;
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+.dropdown-parent {
+    display: flex;
+    justify-content: center;
+}
