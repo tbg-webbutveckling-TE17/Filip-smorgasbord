@@ -1,0 +1,95 @@
+section.headparent {
+    display: flex;
+    margin-top: 5px;
+    padding:5px;
+    justify-content: space-between
+}
+section.top1 {
+    background-color:#505050;
+    height: 60px;
+    width: 20%
+}
+section.top2 {
+    background-color:#505050;
+    width: 55%;
+}
+nav.meny {
+    background-color:#505050;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+}
+main {
+    display: flex;
+}
+section.bloggparent {
+    width: 50%;
+    margin-top: 5px;
+    padding: 0px;
+}
+section.aside1 {
+    
+}
+section.aside2 {
+    
+}
+section.bloggone {
+    background-color:#505050;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+section.bloggtwo {
+    background-color:#505050;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+section.bloggtre {
+    background-color:#505050;
+    height: 350px;
+    width: 100%;
+    margin-top: 10px;
+}
+section.asideone {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 25%;
+}
+aside.smal {
+    background-color:#505050;
+    height: 270px;
+    width: 100%;
+    margin-top: 10px;
+}
+aside.big {
+    background-color:#505050;
+    height: 490px;
+    width: 100%;
+    margin-top: 10px;
+}
+section.asidetwo {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 25%
+}
+aside.smaller {
+    background-color:#505050;
+    height: 200px;
+    margin-top: 10px;
+}
+aside.bige {
+    background-color: #505050;
+    height: 350px;
+    margin-top: 10px;
+}
+aside.small {
+    background-color: #505050;
+    height: 200px;
+    margin-top: 10px;
+}
+section.foten {
+    background-color: #505050;
+    height: 100px;
+    margin-top: 20px;
+}

@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+
+div.head {
+    margin-top: 15px;
+    background-color:#505050;
+    padding:15px;
+    height: 75px;
+    width: 90%
+    
+}
+section.meny {
+    width: 90%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #505050;
+    
+}
+section.bloggparent {
+    width: 60%; 
+    margin-top: 15px;
+    padding 15px;
+}
+section.asideparent {
+    width: 20%;
+    margin-top: 15px;
+    padding:15px;
+    height: 20%;
+    margin-left: 100px;
+}
+section.blogg {
+    background-color:#505050;
+    height: 378px;
+    width: 100%;
+    margin: 10px 0;
+}
+aside {
+    background-color:#505050;
+    height: 250px;
+    width: 100%;
+    margin: 10px;
+}
+main {
+    display: flex;
+}
+.sectionparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asideparent {
+    display: flex;
+    flex-direction: column;
+}
+aside.big {
+    height: 350px;
+    
+}
+section.asidedubbel {
+    display: flex;
+    flex-direction: row;
+    width: 287px;
+    
+}
+aside.box {
+    height: 120px;
+}
+aside.media {
+    height: 100px;
+}
+section.fot {
+    width: 90%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #505050;
+    
+}
