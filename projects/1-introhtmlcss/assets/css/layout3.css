@@ -5,6 +5,7 @@ header {
     display: flex;
     margin-top: 2px;
     justify-content: center;
+    flex-direction:column;
     
 }
 section.logo {
@@ -12,20 +13,53 @@ section.logo {
     background-color: gray;
     width: 40px;
     height: 40px;
-    margin-top: 10px;
+    display: flex;
+    
+    
+    
     
     
 }
 section.radparent {
     display: flex;
+    justify-content: center;
     
 }
 section.rad {
     height: 15px;
     margin-top: 75px;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 10%;
     background-color: gray;
-    width: 10px;
+    width: 50px;
     height: 10px;
+}
+
+section.gray {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin-top: 2px;
+    background-color: #DCDCDC;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    justify-content: center;
+    flex-flow: column;
+}
+section.tjock {
+    border-radius: 15px;
+    background-color: gray;
+    width: 175px;
+    height: 15px;
+    margin-left: 570px;
+    
+    
+}
+section.transparent {
+    border-radius: 15px;
+    background-color: #cccccc;
+    width: 200px;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 557px;
 }
