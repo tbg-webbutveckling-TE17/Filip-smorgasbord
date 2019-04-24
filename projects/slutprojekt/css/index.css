@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/julia-florczak-977077-unsplash%20-%20kopia.jpg);
+    width: 100%;
+    height: 600px;
+    
+    
+}
+nav.meny {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    
+}
+li {
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 10    px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+nav a:hover {
+    background: chocolate;
+    color: black;
+}
+section.sida {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+img.logo {
+    margin-left: 70px;
+    height: 150px;
+    width: 150px;
+}  
+    
+}
+section.text {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+h1.startrubrik {
+    font-size: 25px;
+}
+section.radbilder {
+    display: flex;
+    height: 500px;
+    margin-top: 10px;
+    
+}
+.radbild {
+    height: 100%;
+}
+.radbild.col1 {
+    width: 40%;
+}
+
+.radbild.col2 {
+    width: 35%;
+}
+.radbild.col3 {
+    width: 25%;
+}
+.radbild img {
+    height: 100%;
+}
+.knapp {
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid white;
+	display:inline-block;
+	color:antiquewhite;
+	font-family:Arial;
+	font-size:13px;
+	padding:14px 61px;
+	text-decoration:none;
+    width: 100px;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
