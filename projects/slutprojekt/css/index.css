@@ -104,3 +104,25 @@ section.radbilder {
     margin-left: 200px;
 
 }
+section.text {
+    display: flex;
+    width: 100%;
+}
+section.rubrik {
+    width: 30%;
+}
+section.textandra {
+    display: flex;
+    width: 100%
+}
+p.andra {
+    width: 50%;
+    margin-left: 20px;
+}
+p.tredje {
+    width: 50%;
+    margin-left: 5px;
+}
+p {
+    font-size: 25px;
+}
