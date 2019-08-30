@@ -1,5 +1,5 @@
 body {
-    background-color: #ecf0f1;
+    background-image: url(https://st4.depositphotos.com/4315033/20452/v/1600/depositphotos_204523116-stock-illustration-background-dots-halftone-dots-design.jpg);
 }
 
 .wrapper {
@@ -20,7 +20,7 @@ nav ul {
     flex-flow: row;
     height: 100%;
     align-items: center;  /* cross axis */
-    padding: 0;
+    margin: 0;
     
 }
 
@@ -40,4 +40,35 @@ nav ul li a {
 
 nav ul li a:hover {
      background: rgba(0, 0,0, 0.5);
+}
+
+main {
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: minmax(200px, auto) 100px;
+    grid-template-areas: "left mid right""bottom bottom bottom";
+}
+.left {
+     background: #2ecc71;
+     grid-area: left;
+}
+.mid {
+     background: #f39c12;
+     grid-area: mid;
+}
+.right {
+      background: #e74c3c;
+      grid-area: right;
+}
+.bottom {
+    background: #16a085;
+    grid-area: bottom;
+}
+footer {
+    height: 150px;
+    background: #e74c3c;
+}
+footer p{
+
 }
