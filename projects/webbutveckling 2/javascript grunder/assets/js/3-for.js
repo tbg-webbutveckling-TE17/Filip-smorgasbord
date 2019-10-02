@@ -12,3 +12,15 @@ var len = myArr.length;
 for (var i = 0; i < len; i++) {
     console.log(myArr[i]);
 }
+
+for (var i = -10; i < 20; i +=1) {
+    console.log(i);
+}
+
+for (var i = 10; i < 42; i +=2) {
+    console.log(i);
+}
+for (var i = 301; i < 335; i +=2) {
+    console.log(i);
+}
+for (var i = 5; i < 50; i++)
