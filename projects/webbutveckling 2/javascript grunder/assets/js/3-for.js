@@ -23,4 +23,26 @@ for (var i = 10; i < 42; i +=2) {
 for (var i = 301; i < 335; i +=2) {
     console.log(i);
 }
-for (var i = 5; i < 50; i++)
+for (var i = 5; i < 50; i++) {
+
+};
+
+var rows = 5
+var cols = 5
+
+for (var i = 0; i < rows; i++) {
+    for (var ii = 0; ii < cols; ii++) {
+    document.writeln('*');
+    }
+    document.writeln('br/>');
+}
+
+
+var multi = 9
+for (var i = 0; i < 10; i++) {
+    var result = i * multi
+    document.writeln(multi + ' * ' +i+ ' = ' + result)
+}
+
+var Food = ['nudlar', 'pannkaka', 'palt', 'tacos'];
+
