@@ -49,13 +49,15 @@ if(isEvil == true) {
 var secretNumber = 7;
 var userinput = Number(prompt('guess a number between 0 - 10'));
 
-if(userinput == secretNumber) {
+if(userinput === secretNumber) {
      document.writeln('grattis! du har gissat rätt <br>');
-} else if() {
-
-} else if() {
+} else if( userinput === 6 || userinput === 8) {
+  document.writeln('det bräns');
+} else if(userinput > secretNumber) {
+   document.writeln("du gissar för lågt")
 
 } else {
+   document.writeln('du gissade för lågt')
 
 }
 // if userinput === 6 or 8 'det bräns

@@ -7,7 +7,7 @@ for(var i = 0; i < str.length; i++) {
     console.log(str[i]);
 }
 
-var myArr = ["HTML", "CSS", "JS", 42, TRUE];
+var myArr = ["HTML", "CSS", "JS", 42, true];
 var len = myArr.length;
 for (var i = 0; i < len; i++) {
     console.log(myArr[i]);
@@ -44,5 +44,18 @@ for (var i = 0; i < 10; i++) {
     document.writeln(multi + ' * ' +i+ ' = ' + result)
 }
 
-var Food = ['nudlar', 'pannkaka', 'palt', 'tacos'];
 
+
+
+
+var food = ['nudlar', 'pannkaka', 'palt', 'tacos'];
+for(i = 1; i <= food.length; i++) {
+    if(i == 1){
+    document.writeln("My # " + i + food[i-1]);
+} else(i == 1){
+    document.writeln("my #" + i + food[i-1]);
+} else(i == 1){
+    document.writeln("my #" + i + food[i-1]);
+} else(i == 1){
+    document.writeln("my #" + i + food[i-1]);
+} else(i == 1)
