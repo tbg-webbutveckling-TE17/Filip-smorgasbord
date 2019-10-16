@@ -50,12 +50,39 @@ for (var i = 0; i < 10; i++) {
 
 var food = ['nudlar', 'pannkaka', 'palt', 'tacos'];
 for(i = 1; i <= food.length; i++) {
-    if(i == 1){
+}   if(i == 1) {
     document.writeln("My # " + i + food[i-1]);
-} else(i == 1){
+} else if(i == 1) {
     document.writeln("my #" + i + food[i-1]);
-} else(i == 1){
+} else if(i == 1) {
     document.writeln("my #" + i + food[i-1]);
-} else(i == 1){
+} else if(i == 1) {
     document.writeln("my #" + i + food[i-1]);
-} else(i == 1)
+} else if(i == 1) {
+
+}
+for(var i = 10; i >=0; i--) {
+    for(var ii=0; ii <= i; ii++) {
+
+    document.write('* ');
+}
+document.write('<br>')
+}
+for(var i = 10; i <=0; i++) {
+    for(var ii = 0; ii <= i; ii++) {
+        document.write('* ');
+    }
+    document.write('<br />');
+
+}
+
+var rows = 5
+for(var i = 1; i <= rows; i++) {
+    for(var j = 1; j <= rows - i; j++) {
+        document.write('&nbsp');
+    }
+    for(var k = 1; k <= i; k++) {
+        document.write('* ');
+    }
+    document.write('<br />');
+}
