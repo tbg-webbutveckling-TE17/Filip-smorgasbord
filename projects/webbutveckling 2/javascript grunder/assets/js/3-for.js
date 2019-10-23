@@ -86,3 +86,30 @@ for(var i = 1; i <= rows; i++) {
     }
     document.write('<br />');
 }
+
+function isEven(x) {
+    if(x % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function kebabToSnake(str) {
+    var newStr = str.replace(/-/g, '_');
+    return newStr;
+
+}
+kebabToSnake('This-is-a-kebab-cased-string');
+
+
+
+function localscope() {
+    var showScope = 31;
+    console.log(showScope);
+}
+
+localscope();
+console.log(showScope);
+var showScope = "im a global variable";
+console.log(showScope)
