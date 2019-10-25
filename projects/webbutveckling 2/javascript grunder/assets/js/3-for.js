@@ -111,5 +111,55 @@ function localscope() {
 
 localscope();
 console.log(showScope);
+
 var showScope = "im a global variable";
 console.log(showScope)
+
+var showGlobalVar = 99; //global variable
+function globalscope () {
+    showGlobalVar = 100;
+    console.log(showGlobalVar);
+}
+
+console.log(showGlobalVar);
+globalscope();
+console.log(showGlobalVar);
+
+function hi() {
+    var name = 'are'
+    console.log(name);
+}
+
+hi();
+
+function bye() {
+    console.log(name);
+}
+
+bye();
+
+function sing() {
+    console.log('im singing in the rain');
+    console.log('just singing in the rain');
+    console.log('what a glorious feeling!');
+}
+
+setInterval(sing, 2000);
+clearInterval(1);
+
+var intervalExample = setInterval(sing, 2000)
+clearInterval(intervalExample);
+var anon = setInterval(function() {
+    console.log('im an anonomous function');
+}, 1500);
+
+clearInterval(anon);
+
+function myTimer() {
+    var d = new Date();
+    var time = d.toLocaleTimeString();
+    document.getElementById('timeOutput').innerHTML = time;
+}
+
+myTimer();
+var myTime = setInterval(myTimer, 1000);
