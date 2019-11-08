@@ -162,4 +162,33 @@ function myTimer() {
 }
 
 myTimer();
+
 var myTime = setInterval(myTimer, 1000);
+
+var stopBtn = document.getElementsByTagName('button')[0];
+stopBtn.addEventListener('mouseenter', function() {
+     clearInterval(myTime);
+     alert('time is stopped');
+});
+
+stopBtn.addEventListener('mouseleave', function() {
+     myTime = setInterval(myTimer, 1000);
+    
+});
+
+
+function calculateTip(total) {
+    var tipPercent = 0.15;
+    return total * tipPercent;
+}
+
+var billTotal = prompt('Quanto costa?');
+var billTip = calculateTip(billTotal);
+var receipt = "bill total: " + billTotal + "tip:" + billTip;
+console.log(receipt);
+
+function tellFortune(jobTitle, geoloc, partner, children, ) {
+
+}
+
+tellFortune("akassan", "stockholm", "jen", "12");
