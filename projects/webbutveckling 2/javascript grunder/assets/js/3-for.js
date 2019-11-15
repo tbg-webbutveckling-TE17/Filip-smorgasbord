@@ -187,8 +187,21 @@ var billTip = calculateTip(billTotal);
 var receipt = "bill total: " + billTotal + "tip:" + billTip;
 console.log(receipt);
 
-function tellFortune(jobTitle, geoloc, partner, children, ) {
+
+var displayfortune = document.getElementsByClassName('fortune');
+function tellFortune(jobTitle, geoloc, partnerName, children, ) {
+var tellFortune = 'you will be a' + jobTitle + 'in' + geoloc + 'with' + partnerName + 'with' + children + 'kids'
+displayfortune.innerHTML = tellFortune;
+
 
 }
 
-tellFortune("akassan", "stockholm", "jen", "12");
+tellFortune('janitor', 'lycksele', 'emma', '4');
+
+
+
+
+//var jobTitle + ('president, janitor, lumberjack,')
+//var geoloc + ('lycksele, stockholm, kiruna,')
+//var partnerName + ('nv, hn, fv,')
+//var children + ('3, 4, 2,')
