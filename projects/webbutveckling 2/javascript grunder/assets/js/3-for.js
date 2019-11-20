@@ -182,26 +182,30 @@ function calculateTip(total) {
     return total * tipPercent;
 }
 
-var billTotal = prompt('Quanto costa?');
-var billTip = calculateTip(billTotal);
-var receipt = "bill total: " + billTotal + "tip:" + billTip;
-console.log(receipt);
+//var billTotal = prompt('Quanto costa?');
+//var billTip = calculateTip(billTotal);
+//var receipt = "bill total: " + billTotal + "tip:" + billTip;
+//console.log(receipt);
 
 
-var displayfortune = document.getElementsByClassName('fortune');
-function tellFortune(jobTitle, geoloc, partnerName, children, ) {
-var tellFortune = 'you will be a' + jobTitle + 'in' + geoloc + 'with' + partnerName + 'with' + children + 'kids'
-displayfortune.innerHTML = tellFortune;
+//var displayfortune = document.getElementsByClassName('fortune')[0];
+//function tellFortune(jobTitle, geoloc, partnerName, children, ) {
+//var Fortune = 'you will be a ' + jobTitle + ' in ' + geoloc + ' with ' + partnerName + ' with ' + children + ' kids '
+//displayfortune.innerHTML = Fortune;
+//tellFortune('jobTitle', 'geoloc', 'partnerName', 'children');
 
+
+var jobTitle = ['president', 'janitor', 'lumberjack',]
+var geoloc = ['lycksele', 'stockholm', 'kiruna,']
+var partnerName = ['emma', 'sasha', 'amy']
+var children = ['3, 4, 2,']
+
+var fortunebtn = document.getElementsByTagName('button')[1];
+fortunebtn.addEventListener('mouseenter', function() {
+    tellFortune(Math.floor(Math.random() * 3)
 
 }
 
-tellFortune('janitor', 'lycksele', 'emma', '4');
 
 
 
-
-//var jobTitle + ('president, janitor, lumberjack,')
-//var geoloc + ('lycksele, stockholm, kiruna,')
-//var partnerName + ('nv, hn, fv,')
-//var children + ('3, 4, 2,')
