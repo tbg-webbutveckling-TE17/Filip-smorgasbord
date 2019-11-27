@@ -195,6 +195,12 @@ function calculateTip(total) {
 //tellFortune('jobTitle', 'geoloc', 'partnerName', 'children');
 
 
+function tellFortune(jobTitle, geoloc, partnerName, children) {
+    var tellFuture = 'you will be a ' + jobTitle + 'in' + geoloc + 'and married to' + partnerName + 'with' + children + 'kids'
+    var printOut = document.getElementsByClassName('displayfortune')[0];
+    printOut.innerHTML = tellFuture;
+}
+
 var jobTitle = ['president', 'janitor', 'lumberjack',]
 var geoloc = ['lycksele', 'stockholm', 'kiruna,']
 var partnerName = ['emma', 'sasha', 'amy']
@@ -202,9 +208,13 @@ var children = ['3, 4, 2,']
 
 var fortunebtn = document.getElementsByTagName('button')[1];
 fortunebtn.addEventListener('mouseenter', function() {
-    tellFortune(Math.floor(Math.random() * 3)
+    var randomJob = jobTitle[Math.floor(Math.random() + jobTitle.length)];
+    var randomGeo = geoloc[Math.floor(Math.random() + geoloc.length)];
+    var randomPartner = partnerName[Math.floor(Math.random() + partnerName.length)];
+    var randomChildren = children[Math.floor(Math.random() + children.length)];
+    tellFortune(randomJob, randomGeo, randomPartner, randomChildren);
+});
 
-}
 
 
 
