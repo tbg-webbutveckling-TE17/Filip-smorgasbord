@@ -195,25 +195,42 @@ function calculateTip(total) {
 //tellFortune('jobTitle', 'geoloc', 'partnerName', 'children');
 
 
-function tellFortune(jobTitle, geoloc, partnerName, children) {
-    var tellFuture = 'you will be a ' + jobTitle + 'in' + geoloc + 'and married to' + partnerName + 'with' + children + 'kids'
-    var printOut = document.getElementsByClassName('displayfortune')[0];
-    printOut.innerHTML = tellFuture;
-}
+//function tellFortune(jobTitle, geoloc, partnerName, children) {
+  //  var tellFuture = 'you will be a ' + jobTitle + 'in' + geoloc + 'and married to' + partnerName + 'with' + children + 'kids'
+    //var printOut = document.getElementsByClassName('displayfortune')[0];
+    //printOut.innerHTML = tellFuture;
 
-var jobTitle = ['president', 'janitor', 'lumberjack',]
-var geoloc = ['lycksele', 'stockholm', 'kiruna,']
-var partnerName = ['emma', 'sasha', 'amy']
-var children = ['3, 4, 2,']
 
-var fortunebtn = document.getElementsByTagName('button')[1];
-fortunebtn.addEventListener('mouseenter', function() {
-    var randomJob = jobTitle[Math.floor(Math.random() + jobTitle.length)];
-    var randomGeo = geoloc[Math.floor(Math.random() + geoloc.length)];
-    var randomPartner = partnerName[Math.floor(Math.random() + partnerName.length)];
-    var randomChildren = children[Math.floor(Math.random() + children.length)];
-    tellFortune(randomJob, randomGeo, randomPartner, randomChildren);
-});
+//var jobTitle = ['president', 'janitor', 'lumberjack',];
+//var geoloc = ['lycksele', 'stockholm', 'kiruna,'];
+//var partnerName = ['emma', 'sasha', 'amy'];
+//var children = [3, 4, 2 ];
+
+//var fortunebtn = document.getElementsByTagName('button')[1];
+//fortunebtn.addEventListener('mouseenter', function() {
+  //  var randomJob = jobTitle[Math.floor(Math.random() * jobTitle.length)];
+   // var randomGeo = geoloc[Math.floor(Math.random() * geoloc.length)];
+   // var randomPartner = partnerName[Math.floor(Math.random() * partnerName.length)];
+    //var randomChildren = children[Math.floor(Math.random() * children.length)];
+    
+    //tellFortune(randomJob, randomGeo, randomPartner, randomChildren);
+
+    var dogAge = prompt('how old is you dog as a human?')
+    function calculateDogAge(dogAge) {
+      var displayDogYears = document.getElementsByClassName('dog')
+      var dogYears = dogAge * 7
+      var tellDogYears = 'your dog is' + dogYears + 'years old as a human'
+
+      displayDogYears.innerHTML = tellDogYears
+    }
+
+
+    calculateDogAge(dogAge)
+
+
+
+
+
 
 
 
