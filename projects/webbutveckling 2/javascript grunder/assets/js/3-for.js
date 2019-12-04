@@ -215,17 +215,26 @@ function calculateTip(total) {
     
     //tellFortune(randomJob, randomGeo, randomPartner, randomChildren);
 
-    var dogAge = prompt('how old is you dog as a human?')
-    function calculateDogAge(dogAge) {
-      var displayDogYears = document.getElementsByClassName('dog')
-      var dogYears = dogAge * 7
-      var tellDogYears = 'your dog is' + dogYears + 'years old as a human'
+   // var dogAge = prompt('how old is you dog in human years?')
+   // function calculateDogAge(dogAge) {
+    //  var displayDogYears = document.getElementsByClassName('dog')
+     // var dogYears = dogAge * 7
+     // var tellDogYears = 'your dog is' + dogYears + 'years old as a human'
 
-      displayDogYears.innerHTML = tellDogYears
-    }
+     // displayDogYears.innerHTML = tellDogYears
+    
 
 
-    calculateDogAge(dogAge)
+    //calculateDogAge(dogAge)
+
+    function calculatesupply(age, supplyPerDay) {
+    var maxAge = 100
+    var needed = supplyPerDay * maxAge - age;
+    alert('you will need' + needed + '... each day to last you until the age of' + maxAge);
+}
+var age = prompt('what is your age?')
+var supplyPerDay = 
+calculatesupply(age, supplyPerDay);
 
 
 
