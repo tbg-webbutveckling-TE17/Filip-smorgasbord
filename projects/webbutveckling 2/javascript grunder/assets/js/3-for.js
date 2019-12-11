@@ -228,12 +228,14 @@ function calculateTip(total) {
     //calculateDogAge(dogAge)
 
     function calculatesupply(age, supplyPerDay) {
-    var maxAge = 100
-    var needed = supplyPerDay * maxAge - age;
-    alert('you will need' + needed + '... each day to last you until the age of' + maxAge);
+     var maxAge = 100
+    var needed = (maxAge - age) * 365 * supplyPerDay;
+    var done = ('you will need' + needed + ' kexchoklad to last you until the age of' + maxAge);
+    var printOut = document.getElementsByClassName('supply');
+    printOut.innerHTML = done;
 }
 var age = prompt('what is your age?')
-var supplyPerDay = 
+var supplyPerDay = prompt('Amount of kexchoklad a day')
 calculatesupply(age, supplyPerDay);
 
 
