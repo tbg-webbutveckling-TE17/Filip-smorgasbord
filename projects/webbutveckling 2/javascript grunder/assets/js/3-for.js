@@ -227,24 +227,37 @@ function calculateTip(total) {
 
     //calculateDogAge(dogAge)
 
-   // function calculatesupply(age, supplyPerDay) {
+   // function calculatesupply(age, supplyPerDay) 
     // var maxAge = 100
     //var needed = (maxAge - age) * 365 * supplyPerDay;
     //var done = ('you will need' + needed + ' kexchoklad to last you until the age of' + maxAge);
     //var printOut = document.getElementsByClassName('supply')[0];
     //printOut.innerHTML = done;
-}
+
 //var age = prompt('what is your age?')
 //var supplyPerDay = prompt('Amount of kexchoklad a day')
 //calculatesupply(age, supplyPerDay);
 
 
-var word = ["G", "O", "A", "T"];
-var wordLine = ["_", "_", "_",];
+//var word = ["G", "O", "A", "T"];
+//var wordLine = ["_", "_", "_", "_"];
+//var guesses = 10;
 
-document.addEventListener("keypress", function(){
+//document.addEventListener("keypress", function(e){
+ //   var myGuess = e.key;
+   // document.getElementsByClassName("hang")[0].innerHTML = myGuess
+    //for (i = 0; i <= word.length; i++) {
+      //  if (myGuess = wordLine[i])
+        //
+          //  wordLine[i] = myGuess;
+            //document.getElementsByClassName("guessed")[0].innerHTML = wordLine;
+        
     
-})
+
+
+
+    
+
 
 
 
