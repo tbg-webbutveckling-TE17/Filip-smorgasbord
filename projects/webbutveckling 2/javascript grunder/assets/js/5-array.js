@@ -55,4 +55,32 @@ var countries = ['sweden', 'germany', 'norway', 'spain'];
 countries.forEach(function(country) {
     printToScreen.innerHTML += country + '';
 });
+printToScreen.innerHTML = '';
+var subjects = [''];
+subjects.push('svenska 3', 'matematik 5', 'fysik 2');
+subjects.forEach(function(subject) {
+printToScreen.innerHTML += subject + ' ';
+});
+
+printToScreen.innerHTML = '';
+PrintReverse([ 1, 2, 3, 4, 5, 6, 7 ])
+function PrintReverse(Array) {
+    for (var i = Array.length - 1; i >= 0; i--) {
+        printToScreen.innerHTML += Array[i] + '';
+    }
+}
+function isIdentical(array) {
+    var first = array[0];
+    for (var i = 1; i < array.length; i++) {
+        if(array[i] !== first) {
+            return false
+        }
+    } 
+    return true
+}
+
+isIdentical([1, 1, 1, 1, 1, 1, 1])
+isIdentical([1, 1, 1, 2, 1, 1, 1])
+
+
 
