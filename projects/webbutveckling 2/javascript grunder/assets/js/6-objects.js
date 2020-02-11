@@ -69,3 +69,51 @@ var posts = [
 ];
 
 output.innerHTML = ' author ' + posts[1].author + ' comments ' + posts[1].comments;
+
+
+output.innerHTML = "";
+
+var movies = [
+    {
+        title: 'Shutter island',
+        IMDBRating: '8,1',
+        hasWatched: true
+    },
+    {
+        title: 'intersteller',
+        IMDBRating: '8,1',
+        hasWatched: true
+    },
+    {
+        title: 'el Camino',
+        IMDBRating: '7,4',
+        hasWatched: true
+    },
+    {
+        title: 'sinister',
+        IMDBRating: '6,8',
+        hasWatched: true
+    },
+    {
+        title: 'fight club',
+        IMDBRating: '8,8',
+        hasWatched: false
+    }
+];
+movies.forEach(function(movie) {
+    if(movie.hasWatched == true) {
+        output.innerHTML += 'Movie' + movie.title + movie.IMDBRating + 'have you seen the movie: yes';
+}else{
+    output.innerHTML += 'movie' + movie.title + movie.IMDBRating + 'have you seen the movie: no';
+}
+});
+output.innerHTML = "";
+var count = {
+    text: 'this is some text',
+    add: function(x, y) {
+        return x + y ;
+    },
+    randomNumber: 32
+};
+
+output.innerHTML = count.add(10, 5);
